@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Codecademy Front-end student Natallia Rak</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="./style.css" type="text/css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Kantumruy+Pro:wght@300&display=swap" rel="stylesheet">  
+    <script src="https://kit.fontawesome.com/f0dfcc5eed.js" crossorigin="anonymous"></script>
+</head>
+  <body>
+    <header>
+      <nav class="row navbar-header" aria-orientation="vertical">
+        <div class="col-lg-4 justify-content-md-start">
+          <h1 class="gradient">Natallia Rak</h1>
+        </div>
+        <div class="col-lg-8" aria-controls="menu">
+          <ul class="nav justify-content-lg-end" role="menu" aria-labelledby="menubutton">
+            <li class="nav-item" role="presentation"><a href="./index.html" role="menuitem">Aboout me</a></li>
+            <li class="nav-item" role="presentation"><a href="./contact.html" role="menuitem">Contacts</a></li>
+          </ul>      
+        </div>
+      </nav>
+    </header>
+    <main class="container" role="main">
+        <section id="contactme" class="d-flex align-items-center justify-content-center" role="heading" aria-level="1">
+            <div class="row container" role="grid">
+                <div class="col-lg-6">
+                    <form class="justify-content-around" action="" method="get">
+                        <h2>Send me the message</h2>
+                        <label for="name">Your name</label>
+                        <br>
+                        <input id="name" name="name" type="text" required minlength="3" maxlength="15">
+                        <br>
+                        <label for="email">Your Email</label>
+                        <br>
+                        <input id="email" name="email" type="email" required minlength="8" maxlength="25">
+                        <br>
+                        <label for="message">Your Message</label>
+                        <br>
+                        <textarea id="message" name="message" type="textarea" rows="4" cols="50">
+                        Write your message
+                        </textarea>
+                        <br>
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+                <div class="col-lg-6" role="presentation">
+                    <div class="social justify-content-evenly">
+                        <h2 class="text-center" aria-label="The ways to contact me">Contact me</h2>
+                        <ul role="list">
+                            <li id="Github" class="link"role="listitem"><a href="https://github.com/NatalliaRak" target="_blank"><i class="fa-brands fa-github"></i> <span id="Github-text">GitHub</a></span> </li>
+                            <li id="din" class="link" role="listitem"><a href="https://www.linkedin.com/in/natallia-rak-182a97214/" target="_blank"><i class="fa-brands fa-linkedin"></i> <span id="din-text">Linkidin</span> </a></li>
+                            <li id="fb" class="link" role="listitem"><a href="https://www.facebook.com/natkayellow/" target="_blank"><i class="fa-brands fa-facebook"></i> <span id="fb-text">Facebook </span></a></li>
+                            <li id="insta" class="link" role="listitem"><a href="https://www.instagram.com/natallia_rak/" target="_blank"><i class="fa-brands fa-instagram"></i> <span id="insta-text">Instagram</span> </a></li>
+                            <li id="mailMe" class="link" role="listitem"><a href="mailto:natallia.rak@protonmail.com" target="_blank"><i class="fa-solid fa-envelope"></i> Write me on mail!</a></li>
+                        </ul>
+                        <p>My Instagram and Facebook accounts are privite because of the political situation in Belarus but you always can send the message!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="align-bottom">
+        <div class="row container">
+          <div class="col-lg-6 text-center">
+           <button role="button"><a href="./contact.html" target="_blank"><h4>Visit contact page!</h4></a></button>
+          </div>
+          <div class="col-lg-6 text-center">
+            <h4>The web-site is done during the Codecademy studing with love</h4>
+          </div>
+        </div>
+    </footer>
+    <script src="./contact.js"></script>
+</body>
+</html>

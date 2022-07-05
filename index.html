@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Codecademy Front-end student Natallia Rak</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="./style.css" type="text/css" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Kantumruy+Pro:wght@300&display=swap" rel="stylesheet">  
+  </head>
+  <body>
+    <header>
+      <nav class="row navbar-header" aria-orientation="vertical">
+        <div class="col-lg-4 justify-content-md-start" role="heading" aria-level="1">
+          <h1 class="gradient">Natallia Rak</h1>
+        </div>
+        <div class="col-lg-8" aria-controls="menu">
+          <ul class="nav justify-content-lg-end" role="menu" aria-labelledby="menubutton">
+            <li class="nav-item" role="presentation"><a href="#first" role="menuitem">Aboout me</a></li>
+            <li class="nav-item" role="presentation"><a href="#second" role="menuitem">Projects & My skills</a></li>
+            <li class="nav-item" role="presentation"><a href="./contact.html" role="menuitem">Contacts</a></li>
+          </ul>      
+        </div>
+      </nav>
+    </header>
+    <main class="container" role="main">
+      <section id="first">
+        <div class="row pad" role="grid">
+          <div class="col-lg-6" role="presentation">    
+            <article class="justify-content-lg-evenly">
+              <h2 id="about" aria-label="Some information about me">About me</h2>
+              <p class="mark"> Hey! I am Natallia Rak! </p>
+              <p>Till 2021 I lived in Belarus and worked as a <i>cultural manager</i> and <kbd><i><span id="more1">co-founder and managing director of the feminist publishing initiative</span></i></kbd>.</p> 
+              <p id="feminist" class="hidden">Yep, I am a feminist</p>
+              <p>Since October 2021 I live in forced emigration in Poland due to <kbd><i><span id="more2">the human rights violations in Belarus</span></i></kbd>.</p>
+              <p id="belarus" class="hidden">To get more information about human rights violations in Belarus, you can get on <a href="https://spring96.org/en" target="_blank">the Viasna web-site</a></p>
+              <p>In April 2022 I started  <i>Career Path as Front-End Engineer</i>. Till now I improved my skills in semantic HTML and transit tricks in CSS, I wrote my very first JS codes. That portfolio website is written with help of Bootstrap 5 that I studied by myself before I started the Codecademy course.</p>
+               <p class="interview"><b>See you on interview after I end my Front-end course!</b></p>
+            </article> 
+          </div>
+          <div class="col-lg-6" role="presentation">
+            <figure>
+              <img src="https://user-images.githubusercontent.com/106593583/177323027-4db8d8e1-3813-402c-bfa2-555c0f9b2b56.jpg" class="img-fluid" role="img" alt="My nice photo"/>
+            </figure>
+          </div>
+        </div>
+      </section>
+      <section id="second" role="presentation">
+          <div id="change">
+            <h2 aria-label="Projects I did">Projects</h2>
+            <ul role="list">
+              <li role="listitem">The Magic Bootstrap 5 Template</li>
+              <li role="listitem">My super-puper portfolio</li>
+            </ul>
+          </div>
+          <div id="new">
+          </div>      
+      </section>
+      <section id="third" role="presentation">
+          <h2 aria-label="My skills">My Junior skills</h2>
+          <br>
+          <div class="row">
+            <ul class="skills" role="list">
+              <li id="html-text" role="listitem"><img id="html" src="https://user-images.githubusercontent.com/106593583/177323335-f2529457-375d-4bb2-a7c2-faa8abf58d4d.png" role="figure" alt="My skills: HTML magic"/></li>
+              <li id="css-text" role="listitem"><img id="css" src="https://user-images.githubusercontent.com/106593583/177323233-b5faf7be-5068-479a-9590-d7d85511a895.png" role="figure" alt="My skills: CSS magic"/></li>
+              <li id="js-text" role="listitem"><img id="js" src="https://user-images.githubusercontent.com/106593583/177323320-b46d2922-eea6-4848-a31a-c20213d30ac4.png" role="figure" alt="My skills: JS magic"/></li>
+              <li id="Bt-text" role="listitem"><img id="Bt" src="https://user-images.githubusercontent.com/106593583/177323148-06b50b8e-6177-44a7-9453-61ec829098b4.png" role="figure" alt="My skills: Bootstrap5 magic"/></li>
+              <li id="GH-text" role="listitem"><img id="GH" src="https://user-images.githubusercontent.com/106593583/177323369-f815d829-bec9-4f68-a5d4-510541e72b74.png"/></li>
+            </ul>
+          </div>
+      </section>
+    </main>
+    <footer class="align-bottom"">
+      <div class="row container">
+        <div class="col-lg-6 text-center">
+          <button><a href="./contact.html" target="_blank" role="button"><h4>Visit contact page!</h4></a></button>
+        </div>
+        <div class="col-lg-6 text-center">
+          <h4>The web-site is done during the Codecademy studing with love </h4>
+        </div>
+      </div>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
